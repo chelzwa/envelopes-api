@@ -6,17 +6,5 @@
  */
 
 module.exports = {
-	name: {
-    type: 'text',
-    required: true,
-    unique: true
-  },
-  goal: {
-    type: 'float'
-  },
-  user: {
-    model: 'user',
-    required: true
-  }
-};
 
+};

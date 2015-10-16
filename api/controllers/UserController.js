@@ -6,10 +6,6 @@
  */
 
 module.exports = {
-	email: {
-    type: 'text',
-    required: true,
-    unique: true
-  }
+
 };
 
