@@ -35,4 +35,8 @@ module.exports = {
   //   level: "silent"
   // }
 
+  constants: {
+    AUTH_AUDIENCE: process.env.AUTH_AUDIENCE,
+    AUTH_SECRET: process.env.AUTH_SECRET
+  }
 };
